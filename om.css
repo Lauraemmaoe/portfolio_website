@@ -1,0 +1,55 @@
+.box2 {
+  padding: 10px;
+
+  background-color: rgb(209, 88, 116);
+}
+.box3 {
+  padding: 10px;
+
+  background-color: rgb(209, 88, 116);
+}
+.box4 {
+  padding: 10px;
+
+  background-color: rgb(209, 88, 116);
+}
+
+@media (min-width: 800px) {
+  .grid_1 {
+    padding-bottom: 10%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 30px;
+  }
+
+  .grid_2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 30px;
+  }
+}
+
+.grid_1 {
+  padding-bottom: 10%;
+  display: grid;
+
+  grid-gap: 30px;
+}
+body {
+  background-color: rgba(254, 231, 181, 1);
+}
+.titel {
+  text-align: center;
+  font-family: Staatliches;
+  font-size: 30px;
+  background-color: rgb(161, 16, 50);
+  color: rgb(209, 88, 116);
+}
+.tekst1 {
+  font-family: Staatliches;
+  color: rgb(209, 88, 116);
+}
+
+.tekst2 {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
