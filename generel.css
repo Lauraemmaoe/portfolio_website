@@ -15,16 +15,16 @@
 
   .menu a {
     text-decoration: none;
-    color: #ffffff;
+    color: rgb(222, 123, 136);
     display: inline-block;
     padding: 15px 50px;
 
-    background-color: #769aab;
-    transition: background-color 0.3s;
+    border: 2px solid rgb(0, 0, 0); /* Rød kant på toppen med en tykkelse på 2px */
+    background-color: rgba(255, 248, 232, 1);
   }
 
   .menu a:hover {
-    background-color: #512b5b;
+    background-color: #740823;
   }
 }
 
@@ -32,7 +32,7 @@
   display: none; /* Gem burgerikonet som standard */
   cursor: pointer;
   font-size: 60px; /* Juster størrelsen efter behov */
-  color: aqua;
+  color: rgba(255, 248, 232, 1);
 }
 
 @media (max-width: 800px) {
@@ -51,24 +51,22 @@
     align-items: start;
   }
   .menu {
-    background-color: rgb(168, 220, 220);
+    background-color: rgb(222, 123, 136);
     margin: 20px;
   }
 
   .menu a {
     text-decoration: none;
-    color: #ffffff;
+    color: rgb(222, 123, 136);
     display: flex;
     padding: 20px 100px;
     margin: 20px;
     border: 2px solid rgb(0, 0, 0); /* Rød kant på toppen med en tykkelse på 2px */
-
-    background-color: #769aab;
-    transition: background-color 0.3s;
+    background-color: rgba(255, 248, 232, 1);
   }
 
   .menu a:hover {
-    background-color: #512b5b;
+    background-color: #740823;
   }
 }
 

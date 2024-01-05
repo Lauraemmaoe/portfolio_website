@@ -1,30 +1,30 @@
 @media (min-width: 800px) {
   .grid_1 {
-    padding-bottom: 10%;
+    padding-bottom: 5%;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 30px;
   }
   .grid_2 {
-    padding-bottom: 10%;
+    padding-bottom: 5%;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 30px;
   }
   .grid_3 {
-    padding-bottom: 10%;
+    padding-bottom: 5%;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 30px;
   }
   .grid_4 {
-    padding-bottom: 10%;
+    padding-bottom: 5%;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 30px;
   }
   .grid_5 {
-    padding-bottom: 10%;
+    padding-bottom: 5%;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 30px;
@@ -100,4 +100,28 @@ body {
   font-family: "Staatliches";
   font-size: 40px;
   color: #fbedb4;
+}
+
+img {
+  width: 100%;
+  object-fit: cover;
+  height: auto;
+  display: block;
+}
+
+.tekst2 {
+  background-color: rgb(222, 123, 136);
+  padding: 20px;
+}
+
+.tekst1 {
+  background-color: rgb(222, 123, 136);
+}
+h1 {
+  font-family: "Staatliches";
+}
+@media (max-width: 800px) {
+  img {
+    padding-bottom: 30px;
+  }
 }

@@ -76,7 +76,7 @@
 .menu li {
   display: inline;
 
-  margin: 10 10px;
+  margin: 10px 10px;
 }
 
 .menu li:last-child {
@@ -118,4 +118,17 @@ body {
   font-family: "Staatliches";
   font-size: 40px;
   color: #fbedb4;
+}
+
+img {
+  width: 100%;
+  object-fit: cover;
+  height: auto;
+  display: block;
+}
+
+@media (max-width: 800px) {
+  img {
+    padding-bottom: 30px;
+  }
 }
