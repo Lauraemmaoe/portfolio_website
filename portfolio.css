@@ -2,6 +2,7 @@
   .grid_1 {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    padding-bottom: 5%;
   }
   .grid_2 {
     display: grid;
@@ -23,32 +24,17 @@
 body {
   background: linear-gradient(to bottom, rgba(220, 78, 98, 1), rgb(102, 8, 28));
 }
-main img {
-  width: 700px;
-  height: 600px;
-}
-.p2 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.p3 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.p4 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.p5 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+
 h1 {
   text-align: center;
   font-family: Staatliches;
   font-size: 80px;
+}
+
+img {
+  width: 100%;
+  object-fit: cover;
+  height: auto;
+  display: block;
+  padding-bottom: 10px;
 }

@@ -47,9 +47,24 @@
                     <h1>Temabeskrivelse og opnået læringsmål</h1>
                 </div>
                 <div class="tekst1.2">
-                    <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam blanditiis minus expedita nisi
-                        placeat. Provident laudantium esse at pariatur ducimus recusandae vel natus hic aliquam,
-                        voluptates sint, consectetur, quis in.</P>
+                    <P>I Tema 4 - Animation er jeg blevet introduceret til programmeringssproget JavaScript samt Adobe
+                        Illustrator. Jeg har dedikeret arbejdstid til min hjemmeside, som omfatter et interaktivt og
+                        animeret spil, som jeg selv har designet og programmeret. I processen med at udvikle spillet har
+                        jeg, på egen hånd, anvendt idegenereringsteknikker for at definere spillets koncept. De enkelte
+                        spilelementer blev først skitseret i hånden, og en paper prototype blev udarbejdet.</P>
+                    <p>Undervejs er jeg blevet bekendt med grafisk formgivning og spildesignets teoretiske aspekter. Mit
+                        spildesign er blevet udarbejdet i overensstemmelse med moderne konventioner og omformet som
+                        vektorgrafik i Adobe Illustrator. Jeg har desuden lært teknikken for eksportering af assets i
+                        SVG-format. For at planlægge et mere interaktivt flow har vi arbejdet med aktivitetsdiagrammer
+                        og state-machine-diagrammer.</p>
+                    <p>Jeg har fået kompetencer inden for JavaScript, og jeg har lært at arbejde med variabler
+                        (addClass/removeClass), events (load, click, animationend) samt betingelser (if-else) og
+                        math.random. Specifikt har jeg opnået viden om, hvordan man initierer og stopper animationer.
+                        Jeg har programmeret en version af spillet, hvor spilelementer kan klikkes på og derefter
+                        forsvinder, hvorefter nye kan dukke op. Jeg har udviklet funktioner, der muliggør
+                        pointoptjening, håndtering af livstab, samt betingelser for at vinde eller tabe spillet. Mine
+                        færdigheder omfatter nu også evnen til at anvende CSS-animationer og animere individuelle
+                        spilelementer samt placere UI-elementer.</p>
                 </div>
             </div>
 
@@ -63,33 +78,62 @@
         <div class="grid_2">
             <div class="tekst2">
                 <div class="tekst2.1">
-                    <h3>Aktivitetsdiagram</h3>
+                    <h3>Ide og konceptudvikling </h3>
                 </div>
                 <div class="tekst2.2">
-                    <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam blanditiis minus expedita nisi
-                        placeat. Provident laudantium esse at pariatur ducimus recusandae vel natus hic aliquam,
-                        voluptates sint, consectetur, quis in.</P>
+                    <P>For at generere konceptet til mit spil, "Crystal Pursuit", har vi udført forskellige
+                        idegenereringsøvelser med det formål at frembringe en spilhistorie. En af de anvendte metoder
+                        var Cross Method, som viste sig at være afgørende for udviklingen af idéen til mit spil.</P>
+                    <p>I "Crystal Pursuit" følger spilleren en spåkone, der skal indsamle krystaller til brug i hendes
+                        tarotkortlægning. Handlingen udspiller sig i spåkonens stue, hvor spilleren skal stræbe efter at
+                        indsamle så mange krystaller som muligt. Samtidig er der nedfald af malmsten, som spåkonen ikke
+                        har brug for.
+                        Spilelementer bevæger sig langsomt ned fra toppen af spillet og ned til bunden. Det skal
+                        bemærkes, at kilden, hvorfra stenene og krystallerne falder ned, varierer, hvilket skaber
+                        dynamik og kompleksitet i spillet.</p>
                 </div>
             </div>
 
             <div class="tekst2">
                 <div class="tekst2.1">
-                    <h3>State Machine Diagram</h3>
+                    <h3>Aktivitetsdiagram</h3>
                 </div>
                 <div class="tekst2.2">
-                    <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam blanditiis minus expedita nisi
-                        placeat. Provident laudantium esse at pariatur ducimus recusandae vel natus hic aliquam,
-                        voluptates sint, consectetur, quis in.</P>
+                    <P> Jeg har udarbejdet et aktivitetsdiagram med det formål at repræsentere og modellere de
+                        aktiviteter og processer, der foregår i mit spil for at skabe en struktureret og visuel
+                        repræsentation.
+                        Mit aktivitetsdiagram beskriver en sekvens af handlinger og beslutninger, hvor aktiviteterne
+                        udføres i en specificeret rækkefølge. Det er værd at bemærke, at ikke alle aktiviteter udløser
+                        de samme resultater hver gang, da der er en start (initial), handling (action), beslutning
+                        (decision), gentagelser og parallelt forløb. Jeg har anvendt udvidelsen Draw.io i Visual Studio
+                        Code til at skabe dette diagram.</P>
+                    <p>Diagrammet udgør en overordnet oversigt over spillets samlede forløb. Spillet strækker sig over
+                        en defineret tidsramme på () sekunder, og hvis spilleren opnår mere end () point inden for denne
+                        periode, afsluttes spillet, og de er sejrherrer. Point tildeles ved at gribe krystaller, der
+                        falder ned fra toppen af skærmen. Spilleren starter med 3 liv, og ved hvert klik på en sten
+                        mister de 1 liv. Denne dynamik fortsætter, indtil enten tiden udløber, eller spilleren løber tør
+                        for liv. Regelsættet og pointsystemet er designet med det formål at skabe en udfordrende, men
+                        samtidig givende spiloplevelse.</p>
+
                 </div>
             </div>
             <div class="tekst2">
                 <div class="tekst2.1">
-                    <h3>Papirprototype</h3>
+                    <h3>State Machine Diagram</h3>
                 </div>
                 <div class="tekst2.2">
-                    <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam blanditiis minus expedita nisi
-                        placeat. Provident laudantium esse at pariatur ducimus recusandae vel natus hic aliquam,
-                        voluptates sint, consectetur, quis in.</P>
+                    <P>Jeg har udarbejdet et "state machine diagram" for at beskrive og visualisere spiladfærden ved at
+                        modellere dets forskellige tilstande og de overgange mellem disse tilstande. Dette giver en klar
+                        repræsentation af, hvordan spillet skal udvikle sig under forskellige betingelser og handlinger.
+                    </P>
+                    <p>I mit "State Machine Diagram" fremgår strukturen af mit spil samt dets funktioner. Diagrammet
+                        illustrerer konsekvenserne af at klikke på både positive og negative genstande og fremhæver
+                        fordele og ulemper, der opstår i løbet af spillet. Dette fungerer som en letforståelig guide for
+                        implementeringen af JavaScript-koden, hvor det specificeres, hvordan spillet reagerer på
+                        brugerens handlinger. Dette inkluderer detaljerede beskrivelser af de potentielt positive og
+                        negative effekter ved at interagere med forskellige elementer.
+                        Dette "state machine diagram" tjener som et centralt element i designfasen, der præcist
+                        definerer spillets adfærd og interaktioner</p>
                 </div>
             </div>
 
@@ -121,18 +165,57 @@
         <div class="grid_4">
 
             <div class="tekst4">
-                <H2>Adobe Illutrator</H2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus pariatur error vel mollitia libero
-                    sed, iure quidem quis vero sunt rem ipsum dignissimos perferendis esse explicabo veniam eius, harum
-                    eaque.</p>
+                <H2>Papirprototype</H2>
+                <p>
+                    I produktudviklingsprocessen har jeg udarbejdet en håndtegnet papirprototype med det formål at
+                    visualisere mit interaktive spil. Jeg har udført omfattende research og hentet inspiration fra
+                    online kilder for at skabe prototypen. Det skal bemærkes, at mit primære fokus under denne proces
+                    var at teste konceptet og ikke nødvendigvis designet.
+                    Jeg har bevidst valgt at rette opmærksomheden mod at sikre, at konceptet for spillet er klart og
+                    forståeligt, hvilket jeg fik afklaret da jeg viste prototypen til en bruger. Dette har været
+                    afgørende for at identificere potentielle fejl og forbedringsmuligheder tidligt i
+                    udviklingsprocessen.
+
+                </p>
+                <p>
+                    Endvidere valgte jeg at implementere farver i min papirprototype, da jeg allerede havde defineret en
+                    grundlæggende farvepalette. Farvevalget er domineret af lilla og suppleret med blå og neutrale
+                    nuancer for at skabe en visuel fortælling, der harmonerer med mit krystaltema. Denne tilgang til
+                    farveanvendelse tjener ikke kun til at give prototypen et æstetisk element, men bidrager også til at
+                    formidle en visuel sammenhæng, der støtter spillets tema og koncept.
+
+                </p>
 
             </div>
 
             <div class="tekst4.1">
-                <H2>Kode</H2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus pariatur error vel mollitia libero
-                    sed, iure quidem quis vero sunt rem ipsum dignissimos perferendis esse explicabo veniam eius, harum
-                    eaque.</p>
+                <H2>Adobe Illutrator</H2>
+                <p>
+                    For første gang har jeg anvdent Adobe Illustrator. Jeg har benyttet Illustrator til at skabe alle
+                    elementer i mit spil ved at tegne både med grundlæggende figurer og eksperimentere både med shapes
+                    og værktøjer som AI. Min fokusering har været på at designe enkle former med et minimalt antal
+                    punkter.
+                </p>
+                <p>
+
+                    Jeg har bestræbt mig på at give dybde til baggrunden ved at implementere et vindue, der skildrer
+                    stjernehimlen. Desuden har jeg forsøgt at skabe kontraster ved at anvende forskellige farver til
+                    væggene. Jeg har designet knapper, samt integreret en rød knap til "game over", idet rød i
+                    brugergrænseflader signalerer stop. Det har været essentielt for mig at udforme et design, der
+                    understøtter spilhistorien og miljøet.
+
+                </p>
+                <p>
+                    Alle mine baggrundselementer er eksporteret uden UI-elementer, da disse skal animeres og være
+                    interaktive. Hvert element er individuelt eksporteret som SVG-format og navngivet i overensstemmelse
+                    med deres betydning.
+                    Mit oprindelige udkast forbliver i høj grad tro mod min endelige udgave. Dog har jeg foretaget visse
+                    ændringer i mine UI-elementer, delvist som følge af udfordringer under implementeringen. I løbet af
+                    processen opdagede jeg, at visse designidéer ikke integrerede sig godt med stilen, når de blev
+                    implementeret på hjemmesiden. Derfor tilpassede jeg disse elementer for at sikre en mere
+                    sammenhængende og æstetisk helhed.
+
+                </p>
 
             </div>
 
@@ -148,17 +231,39 @@
                     <h2>Javascript</h2>
                 </div>
                 <div class="tekst5.2">
-                    <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam blanditiis minus expedita nisi
-                        placeat. Provident laudantium esse at pariatur ducimus recusandae vel natus hic aliquam,
-                        voluptates sint, consectetur, quis in.</P>
+                    <P>For første gang, med undtagelse af burgermenuen, blev der introduceret anvendelse af JavaScript
+                        til udvikling af et interaktivt spil. Ved indledningen af mit dokument har jeg defineret
+                        DOM-objekter som konstanter ved hjælp af "const". Dette gør det muligt at tilgå egenskaberne af
+                        DOM-objekter via variabler, hvilket reducerer behovet for gentagen brug af
+                        "document.querySelector".</P>
+                    <p>For at sikre, at siden indlæses korrekt, har jeg implementeret en "window addEventListener",
+                        hvori jeg har oprettet en funktion "(sidenVises)". Denne funktion tilføjer klassen "hide" til
+                        alle skærme undtagen "startScreen", hvor jeg fjerner klassen "hide". Samtidig initieres
+                        baggrundsmusikken ved at indlæse lyden med et "audio"-tag og derefter starte afspilningen ved
+                        hjælp af JavaScript med linjen: "document.querySelector('#id_navn').play()".I forbindelse
+                        med klikbare elementer har jeg anvendt "addEventListener("mousedown", functionName)". Det er
+                        væsentligt at fjerne event listeneren efter aktivering, hvilket opnås ved at anvende remove
+                        i stedet for add.</p>
+                    <p>Ved at trykke på en malme sten, repræsenteret ved #bad_container1 og #bad_sprite1, forsvinder
+                        elementet, og en dårlig lydeffekt afspilles. Herefter startes elementet igen med en ændret
+                        hastighed og position. Dette realiseres ved at tildele variable værdier et tilfældigt tal mellem
+                        1 og 4, hvorefter position og forsinkelse til containeren defineres. Det samme er gjort med
+                        krystallerne. For at afslutte spillet har jeg implementeret en "if-else" struktur og fjernet
+                        event listeners for alle elementer.
+                    </p>
                 </div>
                 <div class="tekst5.1">
                     <h2>Animation i CSS</h2>
                 </div>
                 <div class="tekst5.2">
-                    <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam blanditiis minus expedita nisi
-                        placeat. Provident laudantium esse at pariatur ducimus recusandae vel natus hic aliquam,
-                        voluptates sint, consectetur, quis in.</P>
+                    <P>CSS-ani​mationer udføres i to trin. Først tildeles et element, der har fået tildelt en klasse, en
+                        animation med brug af "animation-name", "animation-duration" og "animation-iteration-count".
+                        Dernæst er animationen defineret i CSS ved hjælp af keyframes med et animationsnavn, herunder
+                        har jeg blandt andet anvendt from-to.</P>
+                    <p>Spilelementerne er blevet korrekt positioneret ved brug af position, top, left, bottom og right.
+                        Samtidig er der blevet indsat UI-elementer såsom liv, point og timer. Timeren er blevet
+                        implementeret ved at anvende clip-path. Herved har jeg sikret, at elementerne er korrekt anbragt
+                        i spillet, og at timeren fungerer som ønsket.</p>
                 </div>
             </div>
 
