@@ -11,12 +11,16 @@ img {
 }
 
 .box {
-  background-color: rgba(255, 248, 232, 1);
-  border: 2px solid rgb(0, 0, 0);
-}
+  background: linear-gradient(
+    to bottom,
 
+    rgb(205, 109, 122),
+    rgb(255, 253, 224)
+  );
+  border: 7px solid #fbedb4;
+}
 body {
-  background: linear-gradient(to bottom, rgba(220, 78, 98, 1), rgb(102, 8, 28));
+  background: rgb(180, 218, 250);
 }
 
 @media (min-width: 800px) {
@@ -28,42 +32,51 @@ body {
   }
   .tekst1 {
     font-size: 40px;
-    padding-left: 30px;
+    padding-left: 10px;
   }
 
   .tekst3 {
     font-size: 40px;
-    padding-left: 110px;
+    padding-left: 140px;
   }
   .tekst {
-    padding-top: 100px;
+    padding-top: 150px;
   }
 }
 .tekst {
   font-family: Rubik Doodle Shadow;
-  color: rgb(209, 88, 116);
+  color: rgb(180, 218, 250);
   text-align: center;
   font-size: 30px;
-  animation-name: bounce;
-  animation-duration: 5s;
-  animation-iteration-count: infinite;
+  opacity: 0;
+  transform: translateX(-100%);
+  animation: slideIn 1s forwards;
 }
 
-@keyframes bounce {
+@keyframes zoom {
+  0%,
   100% {
-    transform: translateY(0);
+    transform: scale(1);
   }
-  40% {
-    transform: translateY(-30px);
-  }
-  60% {
-    transform: translateY(-15px);
+
+  50% {
+    transform: scale(1.2);
   }
 }
 
 .tekst_p h1 {
   text-align: center;
   font-family: Staatliches;
-  font-size: 80px;
+  font-size: 90px;
   color: rgb(180, 218, 250);
+  animation-name: zoom;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes slideIn {
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
 }

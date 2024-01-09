@@ -36,20 +36,79 @@
   grid-gap: 30px;
 }
 body {
-  background-color: rgba(254, 231, 181, 1);
+  background: linear-gradient(
+    to bottom,
+
+    rgb(205, 109, 122),
+    rgb(255, 253, 224),
+    rgb(205, 109, 122),
+    rgb(255, 253, 224),
+    rgb(205, 109, 122),
+    rgb(255, 253, 224)
+  );
 }
 .titel {
   text-align: center;
   font-family: Staatliches;
   font-size: 30px;
-  background-color: rgb(161, 16, 50);
-  color: rgb(209, 88, 116);
+  background-color: rgb(209, 88, 116);
+  color: rgb(180, 218, 250);
+}
+.cv {
+  font-family: Staatliches;
+  font-size: 30px;
+  padding-left: 20px;
+  color: rgb(180, 218, 250);
+  background-color: rgb(209, 88, 116);
 }
 .tekst1 {
   font-family: Staatliches;
   color: rgb(209, 88, 116);
 }
 
-.tekst2 {
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+p {
+  font-family: DM Serif Text;
+}
+h3 {
+  font-family: Staatliches;
+}
+h2 {
+  font-family: Staatliches;
+}
+.img_p img {
+  animation-name: subtleZoom;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes subtleZoom {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.1);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+.logo {
+  position: absolute;
+  top: 1%;
+  right: 15%;
+}
+.logo img {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+}
+@media (max-width: 800px) {
+  .logo {
+    position: absolute;
+    top: 2%;
+    right: 30%;
+  }
 }

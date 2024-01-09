@@ -16,37 +16,38 @@
   .menu a {
     text-decoration: none;
     color: rgb(222, 123, 136);
+    font-family: Staatliches;
     display: inline-block;
     padding: 15px 50px;
 
-    border: 2px solid rgb(0, 0, 0); /* Rød kant på toppen med en tykkelse på 2px */
+    border: 2px solid rgb(222, 123, 136);
     background-color: rgba(255, 248, 232, 1);
   }
 
   .menu a:hover {
-    background-color: #740823;
+    background-color: #cf4265;
   }
 }
 
 .burger-icon {
-  display: none; /* Gem burgerikonet som standard */
+  display: none;
   cursor: pointer;
-  font-size: 60px; /* Juster størrelsen efter behov */
+  font-size: 60px;
   color: rgba(255, 248, 232, 1);
 }
 
 @media (max-width: 800px) {
   .burger-icon {
-    display: block; /* Vis burgerikonet under 800px skærmbredde */
+    display: block;
   }
 
   .menu ul {
-    display: none; /* Skjul menuen som standard på små skærme */
+    display: none;
     list-style: none;
   }
 
   .menu.active ul {
-    display: flex; /* Vis menuen, når .active klassen tilføjes */
+    display: flex;
     flex-direction: column;
     align-items: start;
   }
@@ -58,18 +59,20 @@
   .menu a {
     text-decoration: none;
     color: rgb(222, 123, 136);
+    font-family: Staatliches;
     display: flex;
     padding: 20px 100px;
     margin: 20px;
-    border: 2px solid rgb(0, 0, 0); /* Rød kant på toppen med en tykkelse på 2px */
+    border: 2px solid #fbedb4;
     background-color: rgba(255, 248, 232, 1);
   }
 
   .menu a:hover {
-    background-color: #740823;
+    background-color: #cf4265;
   }
 }
 
 footer {
-  background-color: rgba(255, 248, 232, 1);
+  color: rgb(222, 123, 136);
+  font-family: Staatliches;
 }
